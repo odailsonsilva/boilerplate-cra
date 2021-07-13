@@ -1,35 +1,74 @@
 export default {
   grid: {
-    container: '130rem',
-    gutter: '3.2rem'
+    container: '136.6rem',
+    gutter: '1.6rem'
   },
   border: {
     radius: '0.4rem'
   },
   font: {
-    family:
-      "Poppins, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif",
+    family: "'Open Sans', sans-serif",
     light: 300,
     normal: 400,
-    bold: 600,
+    semiBold: 600,
+    bold: 700,
+    extraBold: 800,
     sizes: {
-      xsmall: '1.2rem',
-      small: '1.4rem',
-      medium: '1.6rem',
-      large: '1.8rem',
-      xlarge: '2.0rem',
-      xxlarge: '2.8rem'
+      hxx: '5.2rem',
+      hx: '3.6rem',
+      h1: '2.4rem',
+      h2: '2rem',
+      h3: '1.6rem',
+      body: '1.6rem',
+      button: '1.4rem',
+      caption: '1.2rem'
     }
   },
   colors: {
-    primary: '#F231A5',
-    secondary: '#3CD3C1',
-    mainBg: '#06092B',
-    white: '#FAFAFA',
-    black: '#030517',
-    lightGray: '#EAEAEA',
-    gray: '#8F8F8F',
-    darkGray: '#2E2F42'
+    octopus: {
+      primary: {
+        light: '#00446B',
+        default: '#002439',
+        dark: '#00101A',
+        opacity: 'rgba(45, 162, 170, 0.04)',
+        '40': 'rgba(45, 162, 170, 0.4)'
+      },
+      secondary: {
+        light: '#34BBC4',
+        default: '#2DA2AA',
+        dark: '#268B91'
+      }
+    },
+    black: {
+      '08': 'rgba(0, 0, 0, 0.08)',
+      '40': 'rgba(0, 0, 0, 0.4)',
+      '56': 'rgba(0, 0, 0, 0.56)',
+      '88': 'rgba(0, 0, 0, 0.88)'
+    },
+    white: {
+      bg: '#FAFAFA',
+      '100': '#FFFFFF'
+    },
+    info: {
+      light: '#009AEB',
+      medium: '#008AD2',
+      dark: '#0079B8'
+    },
+    success: {
+      light: '#40CF54',
+      medium: '#38B449',
+      dark: '#309C3F'
+    },
+    alert: {
+      light: '#FFC61A',
+      medium: '#FFB300',
+      dark: '#E5A100'
+    },
+    danger: {
+      light: '#FF584C',
+      medium: '#F44336',
+      dark: '#DB3C31'
+    }
   },
   spacings: {
     xxsmall: '0.8rem',
